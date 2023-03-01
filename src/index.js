@@ -105,5 +105,5 @@ if (!confirmCommit) {
 await gitCommit({ commit })
 
 outro(
-  '✅ Commit created.See you soon! 👋'
+  '✅ Commit created. See you soon! 👋'
 )
