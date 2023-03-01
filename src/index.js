@@ -57,6 +57,7 @@ const commitType = await select({
 
 if (isCancel(commitType)) {
   outro(colors.red('❌ Commit canceled'))
+  if (files) await gitDiscardCommits({ files })
   process.exit(0)
 }
 
@@ -80,6 +81,7 @@ const commitMsg = await text({
 
 if (isCancel(commitMsg)) {
   outro(colors.red('❌ Commit canceled'))
+  if (files) await gitDiscardCommits({ files })
   process.exit(0)
 }
 

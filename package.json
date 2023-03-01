@@ -1,10 +1,10 @@
 {
   "name": "af-command",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Help you to create a command line tool quickly.",
   "type": "module",
   "bin": {
-    "gc": "./src/index.js"
+    "gc": "./src/bin.js"
   },
   "main": "index.js",
   "scripts": {
