@@ -1,0 +1,29 @@
+{
+  "name": "af-command",
+  "version": "1.0.0",
+  "description": "Help you to create a command line tool quickly.",
+  "type": "module",
+  "bin": {
+    "gc": "./src/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "co": "gc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "af-command": "file://.",
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "@bdsqqq/try": "2.3.1",
+    "@clack/prompts": "0.6.1",
+    "picocolors": "1.0.0"
+  }
+}
